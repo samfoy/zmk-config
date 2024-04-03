@@ -77,10 +77,10 @@
 
         media_layer {
             bindings = <
-&trans  &trans    &trans        &trans            &trans          &trans    &kp K_LOCK      &trans            &trans        &trans              &trans        &trans
-&trans  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp C_REWIND    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_FAST_FORWARD  &trans        &trans
-&trans  &trans    &trans        &trans            &trans          &trans    &bt BT_CLR_ALL  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3  &bt BT_SEL 4
-                                &trans            &trans          &trans    &kp K_STOP      &kp K_PLAY_PAUSE  &kp K_MUTE
+&trans  &trans    &trans        &trans            &trans          &trans    &kp K_LOCK      &trans        &trans        &trans        &trans        &trans
+&trans  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp K_PREV      &kp C_VOL_DN  &kp C_VOL_UP  &kp K_NEXT    &trans        &trans
+&trans  &trans    &trans        &trans            &trans          &trans    &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+                                &trans            &trans          &trans    &kp K_STOP      &kp K_PP      &kp K_MUTE
             >;
         };
     };
