@@ -50,9 +50,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans    &trans        &trans            &trans          &trans    &kp K_UNDO      &kp K_PASTE    &kp K_COPY   &kp K_CUT  &kp K_REDO  &trans
-&trans  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN       &kp UP       &kp RIGHT  &kp CAPS    &trans
-&trans  &trans    &trans        &trans            &trans          &trans    &kp INSERT      &kp PAGE_DOWN  &kp PAGE_UP  &kp HOME   &kp END     &trans
+&trans  &trans    &trans        &trans            &trans          &trans    &kp LG(Z)       &kp LG(V)      &kp LG(C)    &kp LG(X)  &kp LG(LS(Z))  &trans
+&trans  &kp LCMD  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN       &kp UP       &kp RIGHT  &kp CAPS       &trans
+&trans  &trans    &trans        &trans            &trans          &trans    &kp INSERT      &kp PAGE_DOWN  &kp PAGE_UP  &kp HOME   &kp END        &trans
                                 &trans            &trans          &trans    &kp RET         &kp BSPC       &kp DEL
             >;
         };
